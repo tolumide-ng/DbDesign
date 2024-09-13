@@ -19,6 +19,10 @@ repositories {
 dependencies {
     // This dependency is used by the application.
     implementation(libs.guava)
+    implementation(libs.derby.tools)
+    implementation(libs.derby.net)
+    implementation(libs.derby.client)
+    implementation(libs.derby)
 }
 
 testing {
