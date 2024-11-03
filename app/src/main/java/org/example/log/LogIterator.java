@@ -7,11 +7,11 @@ import org.example.file.FileMgr;
 import org.example.file.Page;
 
 class LogIterator implements Iterator<byte[]> {
+    private FileMgr fm;
     private Page p;
     private int currentpos;
     private int boundary;
     private BlockId blk;
-    private FileMgr fm;
 
 
     /**
